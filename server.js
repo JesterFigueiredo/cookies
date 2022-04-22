@@ -13,5 +13,5 @@ app.get('/',(req,res)=>{
     res.render('index.ejs');
 })
 
-app.listen(process.env.PORT);
+app.listen(3000);
 //process.env.PORT
