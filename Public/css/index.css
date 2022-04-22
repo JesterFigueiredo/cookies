@@ -17,17 +17,18 @@
     font-family:luckiest;
 }
 
+header>div>div{
+    font-family:luckiest;
+    color: aliceblue;
+}
 
 #right,#left{
     width: 100%;
     height: 100%;
 }
-#right{
-    display: flex;
-    justify-content: flex-start;
-}
-img{
-    width: 70%;
+
+#img{
+    width: 90%;
     box-sizing: border-box;
     padding-left: 10px;
 }
@@ -44,8 +45,26 @@ h1{
     font-size: 330%;
     font-weight: 100;
     margin-top: 2%;
+    width: 80%;
 }
 
 section>p{
     font-family:Accord;
+    width: 80%;
+    color: rgb(44, 163, 210);
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    background-color: #ff7062;
+    margin-top: 2%;
+    width: 20%;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #fe5d4e;
 }

@@ -1,0 +1,60 @@
+body{
+    background-image:url('/images/background_mobile.png');
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 100%;
+}
+
+#container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 4%;
+    font-family:luckiest;
+}
+
+#left,#right{
+    width: 100%;
+}
+
+#left>img{
+    width: 87%;
+    height: 87%;
+}
+
+#right{
+    box-sizing: border-box;
+    padding-left: 3%;
+}
+
+h1{
+    font-size: 330%;
+    margin-top: 3%;
+}
+
+#right>p{
+    margin-top: 3%;
+}
+
+input,button{
+    background-color: #ff7062;
+    border:3px solid #ff7062;
+    margin-top: 3%;
+    color: black;
+    padding: 10px;
+    outline: none;
+}
+button{
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:  10px;
+}
+input{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:  10px;
+}

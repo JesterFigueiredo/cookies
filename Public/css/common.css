@@ -3,18 +3,33 @@
     src: url('/css/fonts/Accord/Accord.ttf');
 }
 
+@font-face {
+    font-family:luckiest;
+    src: url('/css/fonts/Luckiest_Guy/LuckiestGuy.ttf');
+}
+
 *{
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
 
+#links{
+    text-decoration: none;
+    color: #2c3e66;
+}
+
+a{
+    text-decoration: none;
+}
+
 body{
     height: 100vh;
     width: 100vw;
     background-image: url('/images/background.png');
-    background-size: cover;
+    background-size:100% 100%;
     font-family: Accord;
+    color: #2c3e66;
 }
 
 #body_container{
@@ -34,13 +49,20 @@ header{
 
 header>div>img{
     height: 30px;
-    width: 30px;
+    width: 40px;
+    width: 90%;
+    box-sizing: border-box;
 }
 
 header>div>div{
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+header>div>a{
+    font-family:luckiest;
+    color: aliceblue;
 }
 
 header>div{
@@ -53,4 +75,8 @@ nav{
     width: 35%;
     display: flex;
     justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
+
