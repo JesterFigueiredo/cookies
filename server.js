@@ -4,7 +4,7 @@ const expressLayouts = require('express-ejs-layouts');
 
 app.set('view engine', 'ejs');
 
-app.use(express.static('public'));
+app.use(express.static('Public'));
 app.use(expressLayouts);
 app.set("layout extractScripts", true);
 app.set("layout extractStyles", true)
@@ -17,5 +17,5 @@ app.get('/contact',(req,res)=>{
     res.render('contact.ejs');
 })
 
-app.listen(process.env.PORT);
+app.listen(3000);
 //process.env.PORT
