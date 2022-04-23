@@ -17,6 +17,10 @@ app.get('/contact',(req,res)=>{
     res.render('contact.ejs');
 })
 
-app.listen(process.env.PORT);
+app.get('*',function(req,res){
+    res.status(404).render('404.ejs',{ layout: false })
+})
+
+app.listen(3000);
 //process.env.PORT
 
