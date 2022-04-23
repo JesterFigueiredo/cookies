@@ -17,6 +17,6 @@ app.get('/contact',(req,res)=>{
     res.render('contact.ejs');
 })
 
-app.listen(3000);
+app.listen(process.env.PORT);
 //process.env.PORT
 
