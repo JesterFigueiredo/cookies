@@ -21,6 +21,6 @@ app.get('*',function(req,res){
     res.status(404).render('404.ejs',{ layout: false })
 })
 
-app.listen(3000);
+app.listen(process.env.PORT);
 //process.env.PORT
 
