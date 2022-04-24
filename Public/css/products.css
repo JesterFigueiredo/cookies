@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    height: 100vh;
+    background-color: #f9c702;
+
+}
+
+#product_display{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#product_display>img{
+    max-height: 55%;
+    width: auto;
+}
+
+#product_option{
+    position: fixed;
+    height: auto;
+    width: 50px;
+    top: 30%;
+    left: 95%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgb(183, 176, 176) ;
+}
+
+#product_option>img{
+    width: 100%;
+    height:40px;
+}

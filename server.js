@@ -17,10 +17,14 @@ app.get('/contact',(req,res)=>{
     res.render('contact.ejs');
 })
 
+app.get('/products',function(req,res){
+    res.render('products.ejs',{ layout: false })
+})
+
 app.get('*',function(req,res){
     res.status(404).render('404.ejs',{ layout: false })
 })
 
-app.listen(process.env.PORT);
+app.listen(3000 || process.env.PORT);
 //process.env.PORT
 
